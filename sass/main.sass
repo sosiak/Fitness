@@ -1,6 +1,7 @@
 $menu-font: 'Lato'
 $white: #ecf0f1
 $green: rgb(162, 202, 40)
+$red: rgb(253, 99, 78)
 $main-font: 'Open Sans'
 body
 	margin: 0 auto
@@ -79,14 +80,14 @@ body
 				@keyframes arrowMove
 					from {padding-left: 10px}
 					to {padding-left: 70px}
-	.features-up-grid
-		.left-up
+	.features-green-grid
+		.text
 			background-color: white
 			min-height: 400px
 			padding: 20px 5px
 			h3
 				font-size: 16px
-				color: rgb(253, 99, 78)
+				color: $red
 				text-transform: uppercase
 				font-family: $main-font
 				font-weight: bold
@@ -114,11 +115,17 @@ body
 				letter-spacing: 1px
 				&:hover
 					border-bottom: 2px dotted $green
-		.right-up
+		.image-up
 			min-height: 400px
 			background-image: url('http://i65.tinypic.com/35cj31z.png')
 			background-position: center
 			background-size: cover
+		.image-down
+			min-height: 400px
+			background-image: url('http://i66.tinypic.com/25plefk.png')
+			background-position: center
+			background-size: cover
+		.image
 			.right-up-text
 				position: absolute
 				bottom: 50px
@@ -128,14 +135,110 @@ body
 					font-size: 14px
 					font-family: $main-font
 					font-weight: bold
-					color: rgb(247, 97, 76)
+					color: $red
 				.number
 					color: white
 				img
 					display: inline
 					margin-left: 10px
+			.left-down-text
+				position: absolute
+				bottom: 50px
+				left: 30px
+				p
+					display: inline
+					font-size: 14px
+					font-family: $main-font
+					color: $white
+				img
+					display: inline
+					margin-left: 10px
+.red-features
+	min-height: 1300px
+	background-color: $red
+	padding: 0px 150px
+	.features-red-grid
+		.running
+			background-image: url('http://i63.tinypic.com/jpvlgn.png')
+			background-size: cover
+			background-position: center top
+		.surfing
+			background-image: url('http://i67.tinypic.com/r0d24g.png')
+			background-size: cover
+			background-position: center
+			.date
+				display: inline
+				position: absolute
+				top: 50px
+				left: 40px
+				p
+					font-family: 'Montserrat'
+					font-size: 16px
+					text-transform: uppercase
+					font-weight: bold
+					color: white
+					letter-spacing: 2px
+			.slogan
+				display: inline
+				position: absolute
+				top: 50px
+				right: 40px
+				p
+					font-family: 'Montserrat'
+					font-size: 16px
+					text-transform: uppercase
+					font-weight: bold
+					color: white
+					letter-spacing: 2px
+					display: inline
+				img
+					margin-left: 10px
+		.lifestyle-text
+			background-color: white
+			padding: 40px 40px 30px 30px
+			h2
+				font-family: 'Montserrat'
+				font-size: 16px
+				font-weight: bold
+				color: $red
+				letter-spacing: 2px
+				text-transform: uppercase
+			h1
+				font-family: $main-font
+				font-size: 32px
+				color: $green
+				text-transform: uppercase
+				letter-spacing: 2px
+				margin-top: 0
+			img
+				display: inline
+				position: absolute
+				right: 30px
+				top: 60px
+			p
+				font-size: 13px
+				font-weight: bold
+				font-family: $main-font
+				padding: 5px
+				line-height: 25px
+		.summer-text
+			background-color: $green
+			color: white
+			padding: 40px 80px 40px 40px
+			h1
+				font-family: $main-font
+				font-size: 36px
+				text-transform: uppercase
+				letter-spacing: 2px
+				margin-bottom: 20px
+			p
+				font-family: $main-font
+		.grid
+			min-height: 325px
 @media(max-width: 1200px)
 	.green-features
+		padding: 0px 70px
+	.red-features
 		padding: 0px 70px
 @media(max-width: 1007px)
 	.green-features
@@ -156,12 +259,14 @@ body
 			.navbar-brand
 				padding: 10px 3px
 	.green-features
-		padding: 0 90px
+		padding: 0 30px
 		.features
-			padding: 0 90px
+			padding: 30px 90px
 			.training
 				p
 					padding: 20px 3px
+	.red-features
+		padding: 0 30px
 @media(max-width: 767px)
 	.header
 		.navbar
@@ -179,10 +284,16 @@ body
 						border-bottom: 2px solid $white
 						border-top: 2px solid $white
 						font-size: 24px
+	.green-features
+		.features-green-grid
+			padding: 0 100px
 @media(max-width: 520px)
 	.header
 		background-size: 180% 100%
 		.navbar
 			padding: 20px 20px
 	.green-features
-		padding: 0 50px
+		.features
+			padding: 20px 10px
+		.features-green-grid
+			padding: 0

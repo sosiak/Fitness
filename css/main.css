@@ -80,63 +80,164 @@ body {
     padding-left: 10px; }
   to {
     padding-left: 70px; } }
-  .green-features .features-up-grid .left-up {
+  .green-features .features-green-grid .text {
     background-color: white;
     min-height: 400px;
     padding: 20px 5px; }
-    .green-features .features-up-grid .left-up h3 {
+    .green-features .features-green-grid .text h3 {
       font-size: 16px;
       color: #fd634e;
       text-transform: uppercase;
       font-family: "Open Sans";
       font-weight: bold;
       letter-spacing: 2px; }
-    .green-features .features-up-grid .left-up h1 {
+    .green-features .features-green-grid .text h1 {
       font-size: 28px;
       color: #a2ca28;
       text-transform: uppercase;
       font-family: "Open Sans";
       letter-spacing: 2px; }
-    .green-features .features-up-grid .left-up img {
+    .green-features .features-green-grid .text img {
       margin: 10px; }
-    .green-features .features-up-grid .left-up p {
+    .green-features .features-green-grid .text p {
       font-size: 13px;
       font-weight: bold;
       font-family: "Open Sans";
       padding: 5px;
       line-height: 25px; }
-    .green-features .features-up-grid .left-up a {
+    .green-features .features-green-grid .text a {
       font-size: 14px;
       font-weight: bold;
       text-decoration: none;
       font-family: "Open Sans";
       color: #a2ca28;
       letter-spacing: 1px; }
-      .green-features .features-up-grid .left-up a:hover {
+      .green-features .features-green-grid .text a:hover {
         border-bottom: 2px dotted #a2ca28; }
-  .green-features .features-up-grid .right-up {
+  .green-features .features-green-grid .image-up {
     min-height: 400px;
     background-image: url("http://i65.tinypic.com/35cj31z.png");
     background-position: center;
     background-size: cover; }
-    .green-features .features-up-grid .right-up .right-up-text {
+  .green-features .features-green-grid .image-down {
+    min-height: 400px;
+    background-image: url("http://i66.tinypic.com/25plefk.png");
+    background-position: center;
+    background-size: cover; }
+  .green-features .features-green-grid .image .right-up-text {
+    position: absolute;
+    bottom: 50px;
+    right: 20px; }
+    .green-features .features-green-grid .image .right-up-text p {
+      display: inline;
+      font-size: 14px;
+      font-family: "Open Sans";
+      font-weight: bold;
+      color: #fd634e; }
+    .green-features .features-green-grid .image .right-up-text .number {
+      color: white; }
+    .green-features .features-green-grid .image .right-up-text img {
+      display: inline;
+      margin-left: 10px; }
+  .green-features .features-green-grid .image .left-down-text {
+    position: absolute;
+    bottom: 50px;
+    left: 30px; }
+    .green-features .features-green-grid .image .left-down-text p {
+      display: inline;
+      font-size: 14px;
+      font-family: "Open Sans";
+      color: #ecf0f1; }
+    .green-features .features-green-grid .image .left-down-text img {
+      display: inline;
+      margin-left: 10px; }
+
+.red-features {
+  min-height: 1300px;
+  background-color: #fd634e;
+  padding: 0px 150px; }
+  .red-features .features-red-grid .running {
+    background-image: url("http://i63.tinypic.com/jpvlgn.png");
+    background-size: cover;
+    background-position: center top; }
+  .red-features .features-red-grid .surfing {
+    background-image: url("http://i67.tinypic.com/r0d24g.png");
+    background-size: cover;
+    background-position: center; }
+    .red-features .features-red-grid .surfing .date {
+      display: inline;
       position: absolute;
-      bottom: 50px;
-      right: 20px; }
-      .green-features .features-up-grid .right-up .right-up-text p {
-        display: inline;
-        font-size: 14px;
-        font-family: "Open Sans";
+      top: 50px;
+      left: 40px; }
+      .red-features .features-red-grid .surfing .date p {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        text-transform: uppercase;
         font-weight: bold;
-        color: #f7614c; }
-      .green-features .features-up-grid .right-up .right-up-text .number {
-        color: white; }
-      .green-features .features-up-grid .right-up .right-up-text img {
-        display: inline;
+        color: white;
+        letter-spacing: 2px; }
+    .red-features .features-red-grid .surfing .slogan {
+      display: inline;
+      position: absolute;
+      top: 50px;
+      right: 40px; }
+      .red-features .features-red-grid .surfing .slogan p {
+        font-family: 'Montserrat';
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 2px;
+        display: inline; }
+      .red-features .features-red-grid .surfing .slogan img {
         margin-left: 10px; }
+  .red-features .features-red-grid .lifestyle-text {
+    background-color: white;
+    padding: 40px 40px 30px 30px; }
+    .red-features .features-red-grid .lifestyle-text h2 {
+      font-family: 'Montserrat';
+      font-size: 16px;
+      font-weight: bold;
+      color: #fd634e;
+      letter-spacing: 2px;
+      text-transform: uppercase; }
+    .red-features .features-red-grid .lifestyle-text h1 {
+      font-family: "Open Sans";
+      font-size: 32px;
+      color: #a2ca28;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-top: 0; }
+    .red-features .features-red-grid .lifestyle-text img {
+      display: inline;
+      position: absolute;
+      right: 30px;
+      top: 60px; }
+    .red-features .features-red-grid .lifestyle-text p {
+      font-size: 13px;
+      font-weight: bold;
+      font-family: "Open Sans";
+      padding: 5px;
+      line-height: 25px; }
+  .red-features .features-red-grid .summer-text {
+    background-color: #a2ca28;
+    color: white;
+    padding: 40px 80px 40px 40px; }
+    .red-features .features-red-grid .summer-text h1 {
+      font-family: "Open Sans";
+      font-size: 36px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 20px; }
+    .red-features .features-red-grid .summer-text p {
+      font-family: "Open Sans"; }
+  .red-features .features-red-grid .grid {
+    min-height: 325px; }
 
 @media (max-width: 1200px) {
   .green-features {
+    padding: 0px 70px; }
+  .red-features {
     padding: 0px 70px; } }
 
 @media (max-width: 1007px) {
@@ -156,11 +257,13 @@ body {
       .header .navbar .navbar-brand {
         padding: 10px 3px; }
   .green-features {
-    padding: 0 90px; }
+    padding: 0 30px; }
     .green-features .features {
-      padding: 0 90px; }
+      padding: 30px 90px; }
       .green-features .features .training p {
-        padding: 20px 3px; } }
+        padding: 20px 3px; }
+  .red-features {
+    padding: 0 30px; } }
 
 @media (max-width: 767px) {
   .header .navbar {
@@ -176,14 +279,18 @@ body {
       .header .navbar-collapse li .menu:hover {
         border-bottom: 2px solid #ecf0f1;
         border-top: 2px solid #ecf0f1;
-        font-size: 24px; } }
+        font-size: 24px; }
+  .green-features .features-green-grid {
+    padding: 0 100px; } }
 
 @media (max-width: 520px) {
   .header {
     background-size: 180% 100%; }
     .header .navbar {
       padding: 20px 20px; }
-  .green-features {
-    padding: 0 50px; } }
+  .green-features .features {
+    padding: 20px 10px; }
+  .green-features .features-green-grid {
+    padding: 0; } }
 
 /*# sourceMappingURL=main.css.map */
