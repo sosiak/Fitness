@@ -20,12 +20,12 @@
   },
   "homepage": "https://github.com/sosiak/Kodilla#readme",
   "devDependencies": {
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.3",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-imagemin": "^1.0.1",
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-sass": "^2.0.0"
+    "grunt-sass": "^2.1.0"
   },
   "dependencies": {}
 }
