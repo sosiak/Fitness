@@ -230,9 +230,141 @@ body {
       letter-spacing: 2px;
       margin-bottom: 20px; }
     .red-features .features-red-grid .summer-text p {
-      font-family: "Open Sans"; }
+      font-family: "Open Sans";
+      font-size: 13px; }
+  .red-features .features-red-grid .fruit-left {
+    background-image: url("http://i65.tinypic.com/34dg0gn.png");
+    background-size: cover;
+    background-position: center; }
+  .red-features .features-red-grid .fruit-right {
+    background-image: url("http://i64.tinypic.com/117dxy8.png");
+    background-size: cover;
+    background-postion: center; }
+  .red-features .features-red-grid .yourself-text {
+    background-color: white;
+    padding: 40px 80px 40px 40px; }
+    .red-features .features-red-grid .yourself-text h2 {
+      font-family: 'Montserrat';
+      font-size: 16px;
+      font-weight: bold;
+      color: #fd634e;
+      letter-spacing: 2px;
+      text-transform: uppercase; }
+    .red-features .features-red-grid .yourself-text h1 {
+      font-family: "Open Sans";
+      font-size: 32px;
+      color: #a2ca28;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-top: 0; }
+    .red-features .features-red-grid .yourself-text img {
+      display: inline;
+      position: absolute;
+      right: 30px;
+      top: 60px; }
+    .red-features .features-red-grid .yourself-text p {
+      font-size: 13px;
+      font-weight: bold;
+      font-family: "Open Sans";
+      padding: 5px;
+      line-height: 25px; }
+  .red-features .features-red-grid .habits-text {
+    background-color: #a2ca28;
+    color: white;
+    padding: 40px 40px 30px 30px; }
+    .red-features .features-red-grid .habits-text h2 {
+      font-family: 'Montserrat';
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      letter-spacing: 2px;
+      text-transform: uppercase; }
+    .red-features .features-red-grid .habits-text h1 {
+      font-family: "Open Sans";
+      font-size: 32px;
+      color: white;
+      text-transform: uppercase;
+      margin-top: 0; }
+    .red-features .features-red-grid .habits-text img {
+      display: inline;
+      position: absolute;
+      right: 30px;
+      top: 60px; }
+    .red-features .features-red-grid .habits-text p {
+      font-size: 13px;
+      font-weight: bold;
+      font-family: "Open Sans";
+      padding: 5px;
+      line-height: 25px; }
   .red-features .features-red-grid .grid {
     min-height: 325px; }
+
+.banner {
+  min-height: 780px;
+  background-image: url("http://i68.tinypic.com/2ajxlrl.jpg");
+  background-size: cover;
+  background-position: top; }
+  .banner img {
+    display: inline;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    min-height: 260px; }
+  .banner .big-slogan {
+    font-family: "Open Sans";
+    color: white;
+    text-align: center;
+    padding: 220px 360px 175px 360px; }
+    .banner .big-slogan h1 {
+      font-size: 36px; }
+    .banner .big-slogan p {
+      font-size: 14px;
+      margin-top: 20px;
+      padding: 0 30px; }
+
+footer {
+  min-height: 400px;
+  background-color: #0d1119;
+  font-family: "Open Sans";
+  padding: 30px 150px; }
+  footer h2 {
+    color: white;
+    font-size: 16px; }
+  footer p {
+    font-size: 15px;
+    color: #728594; }
+  footer .fa {
+    display: inline-block;
+    border-radius: 50%;
+    padding: 0.5em 0.6em;
+    font-size: 26px;
+    margin-left: 10px;
+    transition: 0.7s; }
+  footer .fa-facebook {
+    padding: 0.5em 0.7em;
+    background-color: #2e3192;
+    color: #f4f2f2; }
+    footer .fa-facebook:hover {
+      color: #2e3192;
+      background-color: #f4f2f2; }
+  footer .fa-twitter {
+    background-color: #00aeef;
+    color: #f4f2f2; }
+    footer .fa-twitter:hover {
+      color: #00aeef;
+      background-color: #f4f2f2; }
+  footer .fa-youtube {
+    color: #f4f2f2;
+    background-color: #ed3123; }
+    footer .fa-youtube:hover {
+      color: #ed3123;
+      background-color: #f4f2f2; }
+  footer .fa-linkedin {
+    color: #f4f2f2;
+    background-color: #171a8f; }
+    footer .fa-linkedin:hover {
+      color: #171a8f;
+      background-color: #f4f2f2; }
 
 @media (max-width: 1200px) {
   .green-features {
