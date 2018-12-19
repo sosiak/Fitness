@@ -64,12 +64,14 @@ body {
       text-decoration: none;
       color: white;
       font-family: "Open Sans";
-      font-size: 14px; }
+      font-size: 14px;
+      font-weight: bold;
+      font-style: italic;
+      letter-spacing: 2px; }
       .green-features .features a .arrow {
         padding-left: 10px; }
       .green-features .features a:hover {
-        background-color: #27ae60;
-        padding: 7px;
+        color: #fd634e;
         border-radius: 10px; }
         .green-features .features a:hover .arrow {
           animation-name: arrowMove;
@@ -307,7 +309,7 @@ body {
   .banner img {
     display: inline;
     position: relative;
-    bottom: 0;
+    bottom: -20px;
     width: 100%;
     min-height: 260px; }
   .banner .big-slogan {
@@ -370,11 +372,19 @@ footer {
   .green-features {
     padding: 0px 70px; }
   .red-features {
-    padding: 0px 70px; } }
+    padding: 0px 70px; }
+  footer .fa {
+    font-size: 20px;
+    margin-left: 4px; } }
 
 @media (max-width: 1007px) {
   .green-features .features .training p {
-    padding: 0px 3px 20px 3px; } }
+    padding: 0px 3px 20px 3px; }
+  footer {
+    padding: 30px 50px; }
+    footer .fa {
+      font-size: 22px;
+      margin-left: 1px; } }
 
 @media (max-width: 992px) {
   .header {
@@ -413,7 +423,11 @@ footer {
         border-top: 2px solid #ecf0f1;
         font-size: 24px; }
   .green-features .features-green-grid {
-    padding: 0 100px; } }
+    padding: 0 100px; }
+  footer .fa {
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 20px; } }
 
 @media (max-width: 520px) {
   .header {
@@ -423,6 +437,10 @@ footer {
   .green-features .features {
     padding: 20px 10px; }
   .green-features .features-green-grid {
-    padding: 0; } }
+    padding: 0; }
+  footer .fa {
+    font-size: 24px;
+    margin-left: 4px;
+    margin-bottom: 20px; } }
 
 /*# sourceMappingURL=main.css.map */
