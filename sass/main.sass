@@ -197,7 +197,7 @@ body
 					margin-left: 10px
 		.lifestyle-text
 			background-color: white
-			padding: 40px 40px 30px 30px
+			padding: 30px 40px 30px 30px
 			h2
 				font-family: 'Montserrat'
 				font-size: 16px
@@ -226,7 +226,7 @@ body
 		.summer-text
 			background-color: $green
 			color: white
-			padding: 40px 80px 40px 40px
+			padding: 30px 80px 40px 40px
 			h1
 				font-family: $main-font
 				font-size: 36px
@@ -325,7 +325,7 @@ body
 			margin-top: 20px
 			padding: 0 30px
 footer
-	min-height: 400px
+	min-height: 500px
 	background-color: rgb(13, 17, 25)
 	font-family: $main-font
 	padding: 30px 150px
@@ -367,15 +367,58 @@ footer
 		&:hover
 			color: rgb(23, 26, 143)
 			background-color: rgb(244, 242, 242)
+	.newsletter
+		float: right
+		padding: 20px 40px
+		input
+			padding: 20px 30px
+			border: 0
+			font-family: $main-font
+			color: rgb(114, 133, 148)
+			font-size: 14px
+			&:hover
+				cursor: text
+		#email
+			width: 380px
+			&:hover
+				cursor: text
+		button
+			padding: 20px 30px
+			font-family: $main-font
+			background-color: $green
+			color: $white
+			font-weight: bold
+			border: 0
+			letter-spacing: 1px
+			&:hover
+				cursor: pointer
+			.fa-arrow-circle-right
+				margin-left: 5px
 @media(max-width: 1200px)
 	.green-features
 		padding: 0px 70px
 	.red-features
 		padding: 0px 70px
+		.features-red-grid
+			.yourself-text
+				padding: 20px 80px 20px 40px
+			.habits-text
+				padding: 20px 10px 20px 10px
+	.banner
+		.big-slogan
+			padding: 220px 200px 175px 200px
 	footer	
 		.fa
 			font-size: 20px
 			margin-left: 4px
+		.newsletter
+			padding: 20px 0
+			input
+				padding: 10px
+			#email
+				width: 300px
+			button
+				padding: 10px
 @media(max-width: 1007px)
 	.green-features
 		.features
@@ -408,12 +451,29 @@ footer
 					padding: 20px 3px
 	.red-features
 		padding: 0 30px
+		.features-red-grid
+			.lifestyle-text
+				padding: 10px 40px 10px 30px
+			.summer-text
+				padding: 10px 80px 10px 40px
+			.yourself-text
+				padding: 20px 20px 10px 20px
+				img
+					top: 20px
+			.habits-text
+				padding: 20px 20px 10px 20px
+				img
+					top: 20px
+	.banner
+		.big-slogan
+			padding: 220px 100px 175px 100px
 @media(max-width: 767px)
 	.header
 		.navbar
 			padding: 20px 100px
 		.navbar-collapse
 			border-top: solid 1px $white
+			background-color: rgba(253, 99, 78, 0.6)
 			li
 				a
 					font-size: 24px
@@ -428,11 +488,32 @@ footer
 	.green-features
 		.features-green-grid
 			padding: 0 100px
+	.red-features
+		.features-red-grid
+			.lifestyle-text
+				padding: 30px 80px 30px 40px
+			.summer-text
+				padding: 30px 80px 30px 40px
+	.banner
+		.big-slogan
+			padding: 220px 30px 175px 30px
+			h1
+				font-size: 28px
 	footer	
 		.fa
 			font-size: 40px
 			margin-left: 20px
 			margin-bottom: 20px
+		.newsletter
+			padding: 0
+			font-size: 12px
+			input
+				padding: 5px
+				font-size: 12px
+			#email
+				width: 120px
+			button
+				padding: 5px
 @media(max-width: 520px)
 	.header
 		background-size: 180% 100%
@@ -443,8 +524,13 @@ footer
 			padding: 20px 10px
 		.features-green-grid
 			padding: 0
+	.banner
+		.big-slogan
+			padding: 220px 10px 175px 10px
 	footer	
 		.fa
 			font-size: 24px
 			margin-left: 4px
 			margin-bottom: 20px
+		.newsletter
+			display: none
